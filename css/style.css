@@ -1,0 +1,171 @@
+/*
+Coded by DaX
+daxdax89.com
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+div {
+  position: relative;
+  z-index: 2;
+}
+
+body {
+  background-color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.footer {
+  width: 450px;
+  text-align: center;
+  display: block;
+  margin: 15px auto 30px auto;
+  font-size: 0.8em;
+  color: #fff;
+}
+.footer a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+}
+
+.quote-box {
+  border-radius: 3px;
+  position: relative;
+  margin: 8% auto auto auto;
+  width: 450px;
+  padding: 40px 50px;
+  display: table;
+  background-color: #fff;
+  opacity: 0.8
+}
+.quote-box .quote-text {
+  text-align: center;
+  width: 450px;
+  height: auto;
+  clear: both;
+  font-weight: 500;
+  font-size: 1.75em;
+}
+.quote-box .quote-text i {
+  font-size: 1.0em;
+  margin-right: 0.4em;
+}
+.quote-box .quote-author {
+  width: 550px;
+  height: auto;
+  clear: both;
+  padding-top: 20px;
+  font-size: 1em;
+  text-align: right;
+}
+.quote-box .buttons {
+  width: 550px;
+  margin: auto;
+  display: block;
+}
+.quote-box .buttons .button {
+  height: 38px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #333;
+  outline: none;
+  font-size: 0.85em;
+  padding: 8px 18px 6px 18px;
+  margin-top: 30px;
+  opacity: 1;
+  cursor: pointer;
+}
+.quote-box .buttons .button:hover {
+  opacity: 0.8;
+}
+.quote-box .buttons .button#tweet-quote, .quote-box .buttons .button#tumblr-quote {
+  padding: 0px;
+  padding-top: 8px;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 5px;
+  height: 30px;
+  width: 150px;
+}
+.quote-box .buttons .button#new-quote {
+  font-size: 1.2em;
+  width: 150px;
+  height: auto;
+
+}
+
+#moj {
+  margin-top: 5%;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  background: #000; 
+}
+video { 
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  transition: 1s opacity;
+}
+.stopfade { 
+ opacity: .5;
+}
+
+h1 {
+  color: white;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .3rem;
+    text-shadow: 2px 2px 4px #000000;
+}
+#polinas{
+  font-size: 1.2em;
+  height: auto;
+  width: 150px;
+}
+#polinas:hover { 
+ background: rgba(0,0,0,0.5);
+}
+
+a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  background:rgba(0,0,0,0.5);
+  padding: .5rem;
+  transition: .6s background; 
+}
+a:hover{
+  background:rgba(0,0,0,0.9);
+}
+@media screen and (max-width: 500px) { 
+  div{width:70%;} 
+}
+@media screen and (max-device-width: 800px) {
+  #bgvid { display: none; }
+}
+
+#lol{
+  margin:0 auto;
+  text-align: center;
+}
+
